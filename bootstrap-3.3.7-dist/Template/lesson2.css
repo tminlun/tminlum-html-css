@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	color: #424242;
+	font-family: arial;
+	font-size: 12px;
+}
+div{
+	display: block;
+}
+li{/*块级元素*/
+	display: list-item;
+    text-align: -webkit-match-parent;
+   
+}
+.cover{
+	width: 100%;
+	height: 100%;
+	background-color: #f5f5f5;
+	
+}
+.site-nav-bd{
+
+	margin:0 auto;/*上下为0，左右根据宽度自适应相同值(即居中)*/
+	width: 1190px;
+	height: 35px;
+	border: 1px solid #f5f5f5;
+	background-color: #f5f5f5;
+}
+.site-nav-menu{
+	list-style: none;
+	float: left;
+	text-decoration: none;
+}
+.site-nav-menu .site-nav-menu-hd{
+	z-index: 10002;/*可以把文字放在一张图片上，可以把一个图片放在文字上*/
+	position: relative;
+	padding: 0 6px;
+	height: 35px;
+	line-height: 35px;
+}
+.site-nav-region{
+	float: left;
+	margin-right: 7px;
+}
+.site-nav-arrow{
+	display: block;
+	float: left;
+	width: 12px;
+	height: 6px;
+	line-height: 6px;
+	overflow: hidden;/*溢出隐藏*/
+	margin-top: 16px;
+}
+.btn{
+	font-size: 12px;
+}
+.site-nav-vip-ico{
+	float: left;
+	background-image: url(https://img.alicdn.com/tfs/TB1Z_HcQFXXXXc7apXXXXXXXXXX-26-71.png);
+	margin-top: 12px;
+	width: 18px;
+	height: 0;
+	padding-top: 12px;
+    background-size: 17px auto;
+    background-repeat: no-repeat;
+}
+.site-nav-menu-hd{
+	margin-top: 0px;
+	text-decoration: none;
+	color: #000;
+	padding-bottom: -2px;
+}
+.site-nav-menu-hd:hover{
+	color: #f40;
+}
+.site-nav-bd-r{
+	float: right;
+	margin-top: -9px;
+}
+.site-nav-menu .site-nav-bd-r .site-nav-menu-hd{
+	background-color: #f5f5f5;
+	position: relative;
+	top: -1px;
+}
+.btn-default{
+	background-color: #f5f5f5;
+}
+.top{
+	
+
+	height: 97px;
+	/*border: 1px solid #000;*/
+
+}
+.logo{
+	margin-left: 12px;
+}
+.logo-bd{
+	display: block;
+	width: 140px;
+	height: 0;
+	padding-top: 58px;
+	/*border: 1px solid #000;*/
+	background-image: url(https://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png);
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 142 58px;
+	margin-top: 17px;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix::before{
+	content: "";
+	display: block;
+	
+}
+.top1{
+	margin-left: 250px;
+}
+.row{
+	margin: 0 auto;
+	width: 872px;
+	height: 27px;
+	text-align: center;
+	margin-top: -40px;
+}
+.form-control{
+	height: 35px;
+	border: 2PX solid #ff5000;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.row .btn-default{
+	border-top-right-radius:20px;
+	border-bottom-right-radius: 20px;
+	
+	color: #fff;
+	font-size: 14px;
+	border: 1.5PX solid #ff5000;
+	background-color: #ff5000;
+}
+
+/*.search-panel-fields{
+	border: 2px solid #ff5000;
+	margin: 0 auto;
+	width: 472px;
+	height: 24px;
+	border-top-left-radius: 20px;/*对容器的上左进行半圆
+	border-bottom-left-radius: 20px;/*对容器的下左进行半圆*/
+	margin-top: -40px;
+}*/
