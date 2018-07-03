@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	width: 200px;
+	line-height: 12px;
+	height: 12px;
+	font-size: 12px;
+	background-color: blue;
+	color: rgba(255,255,255,0.8);
+	padding: 12px 5px;
+}
+div::before{
+	
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 11px;
+	background-image: url(https://tb2.bdstatic.com/tb/img/f_reply_bg_89030dc.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-right: 5px;
+	/*vertical-align: -1px;*/
+
+}
+div::after{
+	content: "";
+	display: inline-block;
+	width: 6.5px;;
+	height: 11.5px;
+	float: right;
+	background-image: url(https://tb2.bdstatic.com/tb/img/f_reply_bg_89030dc.png);
+	background-size: 100% 100%;
+	
+}
